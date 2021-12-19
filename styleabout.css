@@ -1,0 +1,104 @@
+body {
+    background-color: #000220;
+}
+
+#div1 {
+    border: solid 1px ;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: solid 1px transparent;
+    color: white;
+    font-family: Arial;
+    font-size: 51px;
+}
+#div2 {
+    background-color: #000333;
+    color: white;
+    border: solid 1px transparent;
+    height: 45vh;
+
+}
+
+#paragraph1 {
+    border: solid 1px transparent;
+    width: 150vh;
+    height: 45vh;
+    float: left;
+    font-size: 32px;
+    font-family: Arial;
+}
+
+@keyframes mymove {
+    0% {color: rgb(251, 255, 0);}
+    50% {color: rgb(0, 255, 213);}
+    100% {color: rgb(251, 255, 0);}
+}
+
+#divhi {
+    border: solid 1px transparent;
+    animation-name: mymove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#paragraph2 {
+    border: solid 1px transparent;
+    width: 45vh;
+    height: 45vh;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('profilepicture.jpg');
+
+}
+
+img {
+    display: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+.TopBarLinks {
+    font-family: monospace;
+    float: left;
+}
+
+hr {
+    clear: both;
+    border: transparent;
+}
+
+#HomeBar {
+    margin-left: 10vh;
+    color: white;
+}
+
+#AboutBar {
+    margin-left: 0vh;
+    color: white;
+}
+
+#SocialsBar {
+    margin-left: 0vh;
+}
+
+#CareerBar {
+    margin-left: 4vh;
+    color: white;
+}
+
+a {
+    margin-left: 5vh;
+    color: white;
+}
+
+p {
+    margin-right: 50vh;
+}
+
+.socialtab {
+    border: solid 1px red;
+    height: 50vh;
+}

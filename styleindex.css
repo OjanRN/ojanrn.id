@@ -1,0 +1,67 @@
+body {
+    background-color: #000220;
+}
+
+div {
+    height: 10vh;
+}
+
+img {
+    size: 5vh;
+}
+
+.TopBarLinks {
+    font-family: monospace;
+    float: left;
+}
+
+hr {
+    clear: both;
+    border: transparent;
+}
+
+#HomeBar {
+    margin-left: 10vh;
+    color: white;
+}
+
+#AboutBar {
+    margin-left: 0vh;
+    color: white;
+}
+
+#SocialsBar {
+    margin-left: 0vh;
+}
+
+#CareerBar {
+    margin-left: 4vh;
+    color: white;
+}
+
+h2 {
+    font-family: monospace;
+    color: white;
+    float: left;
+}
+
+#HITEXT {
+    margin-top: 25vh;
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+    transition: all 0.5s
+}
+
+h1:hover {
+    text-shadow: -2px -2px 0px rgb(238, 255, 0), 2px 2px 0px rgb(0, 255, 221);
+}
+
+
+a {
+    margin-left: 5vh;
+    color: white;
+    font-size: 18px;
+}
